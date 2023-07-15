@@ -1,0 +1,25 @@
+.block__button {
+  margin: 250px auto;
+  width: 500px;
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  border: 2px solid rgb(225, 249, 249);
+  padding: 80px;
+  background-color: rgba(240, 255, 255, 0.825);
+  box-shadow: 0 0 15px 5px rgb(159, 210, 210)
+}
+.button {
+  font-size: 12px;
+  font-style: italic;
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  box-shadow: none;
+  background-color: rgba(0, 255, 255, 0.388);
+  transition: box-shadow 0.3s;
+}
+
+.button.clicked {
+  box-shadow: 0 0 10px 5px #065775e8;
+}
